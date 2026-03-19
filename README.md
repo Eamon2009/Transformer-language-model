@@ -6,9 +6,6 @@ The purpose of this project is to **understand how modern language models work i
 
 The implementation starts from a very simple language model (Bigram) and gradually builds toward a **Transformer-based GPT architecture**.
 
-This project is inspired by the tutorial by Andrej Karpathy:
-"Let's build GPT: from scratch, in code, spelled out".
-
 However, the goal here is **learning and reimplementation**
 ---
 ## Scaling Laws in Language Models
