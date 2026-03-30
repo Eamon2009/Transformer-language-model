@@ -470,4 +470,4 @@ that night, he had never seen a small boy just soon could drink.
 
 ---
 
-*Built with PyTorch. Architecture based on Andrej Karpathy's nanoGPT.*
+*Built with PyTorch.*
