@@ -1,4 +1,4 @@
-# Transformer Language Model
+# Transformer Language Model  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zs84ZQf-0VPbQxHce1mlSMD-Jr22xJqZ#scrollTo=VdohdZ8imygv) ![GitHub](https://img.shields.io/github/license/Eamon2009/Transformer-language-model)
 
 A character-level GPT transformer built from scratch in PyTorch, trained on children's stories to generate simple English narrative text character by character. No pre-trained weights. No fine-tuning. Pure architecture and training from zero.
 
@@ -32,7 +32,7 @@ A character-level GPT transformer built from scratch in PyTorch, trained on chil
 
 ## What This Project Does
 
-This project trains a small GPT-style transformer model on children's stories and then generates new story-like text character by character. It is a learning project — the goal is not to produce publishable stories, but to understand how language models learn patterns from text and to see that process happen live on your own machine.
+This project trains a small GPT-style transformer model on children's stories and then generates new story-like text character by character. It is a learning project — the goal is not to produce publishable stories, but to understand how language models learn patterns from text and to see that process happen live on your own machine and cloud GPU.
 
 ---
 
@@ -83,7 +83,7 @@ No other dependencies needed. The project uses only PyTorch and Python standard 
 ## How to Run
 
 ```bash
-python train.py
+python transformer.py
 ```
 
 The script will:
@@ -470,4 +470,4 @@ that night, he had never seen a small boy just soon could drink.
 
 ---
 
-*Built with PyTorch. Architecture based on Andrej Karpathy's nanoGPT.*
+*Built with PyTorch.*
